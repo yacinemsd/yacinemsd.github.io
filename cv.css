@@ -1,30 +1,61 @@
-.présentation{
-  float: left;
-	width:100%;
-	height:150px;
-  text-align: center;
-  border-width:3px;
-  border-style:solid;
-   border-color:black;
-	background:#bdcdd6;
+body{
+  background-image:url(pexels-photo-1304048.jpeg);
+  background-size: cover;
 }
 
-.h1 {
-
+.menu1{
+ width:100%;
+ height:50x;
+ text-align: center;
+ border-width:3px;
+ border-style:solid;
+ border-color:black;
 }
+
+
 .compétences{
   width:40%;
   height:700px;
   text-align: center;
   border-width:3px;
   border-style:solid;
-   border-color:black;
+  border-color:black;
   background:#5b99bb;
 
 }
 
-.h{
-  font-size: 20px;
-  text-decoration: underline;
-  text-decoration-color: black;
+
+nav.navbar.navbar-light{
+  border-width:3px;
+  border-style:solid;
+  border-color:black;
+  background-color: #e3f2fd;
+
+}
+
+ul#menuHorizontal1 li{
+  padding:20px 30px;
+  display: inline;
+  padding : 0 0.5;
+  list-style-type : none;
+}
+#menuHorizontal1{
+  width:960px;
+	margin:0 auto;
+	padding:5px 0;
+	text-align:center;
+}
+#menuHorizontal1 li{
+  display: inline;
+}
+#menuHorizontal1 a{
+  font-family: sans-serif;
+  display:inline-block;
+	margin-left:5px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+#menuHorizontal1 a:hover , #menuHorizontal1 a:focus{
+  background:#fff;
+  text-decoration: inherit;
 }
