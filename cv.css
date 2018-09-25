@@ -4,9 +4,27 @@ body{
   background-size: cover;
 }
 
+/*#fond1{
+background:url('pexels-photo-92905.jpeg');
+background-size: cover;
+
+width:100%;
+height:300px;
+z-index:1;
+margin-top: 3px;
+}
+#text1{
+font-family: ;
+top:0;
+left:0;
+width:1000px;
+color: yellow;
+z-index:10;
+}*/
+
 .menu1{
  width:100%;
- height:50x;
+ height:50px;
  text-align: center;
  border-width:3px;
  border-style:solid;
@@ -65,7 +83,7 @@ div.card-body {
 
   background-color: #e3f2fd;
   border-width:3px;
-  border-style:solid;
+  border-bottom: solid;
   border-color:black;
   /* margin-left: 20px; */
 }
@@ -73,17 +91,16 @@ div.card-body {
 
 .yacine {
   margin-top: 1rem;
+  border-width:3px;
+  border-style:solid;
+  border-color:black;
+  background-color: #e3f2fd;
 }
-
-p.card-text, h5.card-title {
-   color: #55596d;
-}
-
 
 
 div.card-header {
   border-width:3px;
-  border-style:solid;
+  border-bottom: solid;
   border-color:black;
   background-color: #e3f2fd;
   color : #007bfe;
@@ -92,4 +109,14 @@ div.card-header {
   /* margin-left: 20px; */
   display:inline-block;
   /* padding-right:110px; */
+}
+
+
+img.d-block.w-100{
+  width: 30rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-width:3px;
+  border-style:solid;
+  border-color:black;
 }
