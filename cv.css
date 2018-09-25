@@ -1,5 +1,6 @@
 body{
-  background-image:url(pexels-photo-1304048.jpeg);
+  background-image: url();
+  background-color: ;
   background-size: cover;
 }
 
@@ -33,7 +34,7 @@ nav.navbar.navbar-light{
 
 }
 
-ul#menuHorizontal1 li{
+ul #menuHorizontal1 li{
   padding:20px 30px;
   display: inline;
   padding : 0 0.5;
@@ -58,4 +59,37 @@ ul#menuHorizontal1 li{
 #menuHorizontal1 a:hover , #menuHorizontal1 a:focus{
   background:#fff;
   text-decoration: inherit;
+}
+
+div.card-body {
+
+  background-color: #e3f2fd;
+  border-width:3px;
+  border-style:solid;
+  border-color:black;
+  /* margin-left: 20px; */
+}
+
+
+.yacine {
+  margin-top: 1rem;
+}
+
+p.card-text, h5.card-title {
+   color: #55596d;
+}
+
+
+
+div.card-header {
+  border-width:3px;
+  border-style:solid;
+  border-color:black;
+  background-color: #e3f2fd;
+  color : #007bfe;
+
+  margin-bottom:10px;
+  /* margin-left: 20px; */
+  display:inline-block;
+  /* padding-right:110px; */
 }
