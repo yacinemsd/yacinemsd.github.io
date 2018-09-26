@@ -1,5 +1,5 @@
 body {
-  background-image: url();
+  background-image: url(degradé.jpeg);
   background-color: ;
   background-size: cover;
 }
@@ -8,7 +8,7 @@ body {
 
   background-image: url(banner-904884_1920.jpg);
   background-size: cover;
-  padding: 170px;
+  padding: 150px;
   padding-bottom:5px;
 }
 .text {
@@ -44,12 +44,14 @@ ul #menuHorizontal1 li{
   display: inline;
   padding : 0 0.5;
   list-style-type : none;
+
 }
 #menuHorizontal1{
-  width:960px;
+  width:;
 	margin:0 auto;
 	padding:5px 0;
 	text-align:center;
+
 }
 #menuHorizontal1 li{
   display: inline;
