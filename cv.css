@@ -1,9 +1,23 @@
-body{
+body {
   background-image: url();
   background-color: ;
   background-size: cover;
 }
 
+.imagesheader {
+
+  background-image: url(pexels-photo-340901.jpeg);
+  background-size: cover;
+  padding: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom:5px;
+}
+.texthead{
+color: #e3f2fd;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+}
 /*#fond1{
 background:url('pexels-photo-92905.jpeg');
 background-size: cover;
@@ -113,7 +127,7 @@ div.card-header {
 
 
 img.d-block.w-100{
-  width: 30rem;
+  width: 20rem;
   margin-left: 1rem;
   margin-top: 1rem;
   border-width:3px;
