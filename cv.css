@@ -16,53 +16,18 @@ body {
   top:-70px;
 }
 .texthead{
+text-shadow: 3px 3px 1px black;
 color: #124559;
 text-align: center;
 font-family: 'Paytone One', sans-serif;
 font-size: 60px;
 }
 .texthead2 {
+text-shadow: 3px 3px 1px black;
 text-align: center;
 font-family: 'Fugaz One', cursive;
+font-size: 50px;
 color: #598392;
-}
-/*#fond1{
-background:url('pexels-photo-92905.jpeg');
-background-size: cover;
-
-width:100%;
-height:300px;
-z-index:1;
-margin-top: 3px;
-}
-#text1{
-font-family: ;
-top:0;
-left:0;
-width:1000px;
-color: yellow;
-z-index:10;
-}*/
-
-.menu1{
- width:100%;
- height:50px;
- text-align: center;
- border-width:3px;
- border-style:solid;
- border-color:black;
-}
-
-
-.compétences{
-  width:40%;
-  height:700px;
-  text-align: center;
-  border-width:3px;
-  border-style:solid;
-  border-color:black;
-  background:#5b99bb;
-
 }
 
 
@@ -104,6 +69,7 @@ ul #menuHorizontal1 li{
   text-decoration: inherit;
 }
 
+
 div.card-body {
 
   background-color: #003c61;
@@ -115,9 +81,11 @@ div.card-body {
 
 div.card-body p {
   color: #00fcf9;
+  font-family: 'Short Stack', cursive;
 }
 
 .yacine {
+  box-shadow: 2px 4px 6px 3px rgba(0, 0, 0, 0.7);
   margin-top: 1rem;
   border-width:3px;
   border-style:solid;
@@ -146,14 +114,4 @@ div.card-header h3{
  font-family: 'Fugaz One', cursive;
  font-size: 50px;
 
-}
-
-
-img.d-block.w-100{
-  width: 20rem;
-  margin-left: 1rem;
-  margin-top: 1rem;
-  border-width:3px;
-  border-style:solid;
-  border-color:black;
 }
