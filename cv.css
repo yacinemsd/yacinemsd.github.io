@@ -6,17 +6,25 @@ body {
 
 .imagesheader {
 
-  background-image: url(pexels-photo-340901.jpeg);
+  background-image: url(banner-904884_1920.jpg);
   background-size: cover;
-  padding: 100px;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding: 170px;
   padding-bottom:5px;
 }
+.text {
+  position:relative;
+  top:-70px;
+}
 .texthead{
-color: #e3f2fd;
+color: #124559;
 text-align: center;
-font-family: 'Oswald', sans-serif;
+font-family: 'Paytone One', sans-serif;
+font-size: 60px;
+}
+.texthead2 {
+text-align: center;
+font-family: 'Fugaz One', cursive;
+color: #598392;
 }
 /*#fond1{
 background:url('pexels-photo-92905.jpeg');
@@ -82,11 +90,12 @@ ul #menuHorizontal1 li{
   display: inline;
 }
 #menuHorizontal1 a{
-  font-family: sans-serif;
+  font-family: 'Fugaz One', cursive;
   display:inline-block;
-	margin-left:5px;
+	margin-left: 60px;
 	padding: 5px 10px;
 	text-decoration: none;
+  font-size: 20px
 }
 #menuHorizontal1 a:hover , #menuHorizontal1 a:focus{
   background:#fff;
@@ -111,6 +120,9 @@ div.card-body {
   background-color: #e3f2fd;
 }
 
+.div1 {
+  background-color: #39a0ed;
+}
 
 div.card-header {
   border-width:3px;
