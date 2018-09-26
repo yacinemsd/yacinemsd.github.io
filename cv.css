@@ -95,7 +95,9 @@ ul #menuHorizontal1 li{
 	margin-left: 60px;
 	padding: 5px 10px;
 	text-decoration: none;
-  font-size: 20px
+  font-size: 20px;
+  color: #003c61;
+
 }
 #menuHorizontal1 a:hover , #menuHorizontal1 a:focus{
   background:#fff;
@@ -104,13 +106,16 @@ ul #menuHorizontal1 li{
 
 div.card-body {
 
-  background-color: #e3f2fd;
+  background-color: #003c61;
   border-width:3px;
   border-bottom: solid;
   border-color:black;
   /* margin-left: 20px; */
 }
 
+div.card-body p {
+  color: #00fcf9;
+}
 
 .yacine {
   margin-top: 1rem;
@@ -131,10 +136,16 @@ div.card-header {
   background-color: #e3f2fd;
   color : #007bfe;
 
-  margin-bottom:10px;
+  margin-bottom:;
   /* margin-left: 20px; */
   display:inline-block;
   /* padding-right:110px; */
+}
+div.card-header h3{
+ color: #003c61;
+ font-family: 'Fugaz One', cursive;
+ font-size: 50px;
+
 }
 
 
