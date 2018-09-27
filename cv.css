@@ -10,6 +10,7 @@ body {
   background-size: cover;
   padding: 150px;
   padding-bottom:5px;
+
 }
 .text {
   position:relative;
@@ -32,6 +33,7 @@ color: #598392;
 
 
 nav.navbar.navbar-light{
+
   border-width:3px;
   border-style:solid;
   border-color:black;
@@ -71,6 +73,24 @@ ul #menuHorizontal1 li{
   text-decoration: inherit;
 }
 
+div.about.moi{
+  margin-top: 250px;
+}
+
+.moi {
+  background-color: #003c61;
+  box-shadow: 2px 4px 6px 3px rgba(0, 0, 0, 0.7);
+  margin-top: 1rem;
+  border-width:3px;
+  border-style:solid;
+  border-color:black;
+
+}
+
+.moi p {
+  color: #00fcf9;
+  font-family: 'Short Stack', cursive
+}
 
 div.card-body {
 
@@ -116,4 +136,7 @@ div.card-header h3{
  font-family: 'Fugaz One', cursive;
  font-size: 50px;
 
+}
+div.card.yacine{
+ margin-top: 40px;
 }
