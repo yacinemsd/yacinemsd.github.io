@@ -4,77 +4,67 @@ body {
   background-size: cover;
 }
 
-.imagesheader {
-
+.imagesheader{
   background-image: url(banner-904884_1920.jpg);
   background-size: cover;
-  padding: 150px;
-  padding-bottom:5px;
 
 }
-.text {
-  position:relative;
-  top:-70px;
-}
-.texthead{
+
+/**h1.texthead{
+
+  border-top: 3px solid black;
+
+}**/
+
+.texthead {
 text-shadow: 3px 3px 1px black;
 color: #124559;
 text-align: center;
 font-family: 'Paytone One', sans-serif;
-font-size: 60px;
+font-size: 3rem;
+margin: 0;
 }
+
 .texthead2 {
 text-shadow: 3px 3px 1px black;
 text-align: center;
 font-family: 'Fugaz One', cursive;
-font-size: 50px;
+font-size: 2.8rem;
 color: #598392;
+margin: 0;
 }
 
 
-nav.navbar.navbar-light{
+nav.navbar.navbar-dark.bd-dark{
 
   border-width:3px;
   border-style:solid;
   border-color:black;
-  background-color: #e3f2fd;
+  /background-color: #e3f2fd;
 
 }
 
-ul #menuHorizontal1 li{
-  padding:20px 30px;
-  display: inline;
-  padding : 0 0.5;
-  list-style-type : none;
+
+div.dropdown-menu.show {
+background-color: #e3f2fd;
 
 }
-#menuHorizontal1{
-  width:;
-	margin:0 auto;
-	padding:5px 0;
-	text-align:center;
 
-}
-#menuHorizontal1 li{
-  display: inline;
-}
-#menuHorizontal1 a{
+
+div.dropdown-menu.show a{
   font-family: 'Fugaz One', cursive;
   display:inline-block;
-	margin-left: 60px;
-	padding: 5px 10px;
+
 	text-decoration: none;
   font-size: 20px;
   color: #003c61;
 
 }
-#menuHorizontal1 a:hover , #menuHorizontal1 a:focus{
-  background:#fff;
-  text-decoration: inherit;
-}
+
 
 div.about.moi{
   margin-top: 250px;
+
 }
 
 .moi {
