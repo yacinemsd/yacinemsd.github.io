@@ -1,7 +1,8 @@
 body {
-  background-image: url(degradé.jpeg);
-  background-color: ;
+  background-image: url();
+  background-color: #d8fcd4;
   background-size: cover;
+
 }
 
 .imagesheader{
@@ -50,15 +51,14 @@ background-color: #e3f2fd;
 
 }
 
+nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-light.navbar-dark.bg-dark {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 
-div.dropdown-menu.show a{
-  font-family: 'Fugaz One', cursive;
-  display:inline-block;
-
-	text-decoration: none;
-  font-size: 20px;
-  color: #003c61;
-
+}
+nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-light.navbar-dark.bg-dark a {
+font-family: 'Fugaz One', cursive;
+color: #c6d4ff;
 }
 
 
