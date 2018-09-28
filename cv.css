@@ -17,7 +17,7 @@ body {
 }**/
 
 .texthead {
-text-shadow: 3px 3px 1px black;
+text-shadow: 2px 2px 1px black;
 color: #124559;
 text-align: center;
 font-family: 'Paytone One', sans-serif;
@@ -64,12 +64,12 @@ color: #c6d4ff;
 
 
 div.about.moi{
-  margin-top: 250px;
+  margin-top: 240px;
 
 }
 
 .moi {
-  background-color: #003c61;
+  background-color: #343a40;
   box-shadow: 2px 4px 6px 3px rgba(0, 0, 0, 0.7);
   margin-top: 1rem;
   border-width:3px;
@@ -85,7 +85,7 @@ div.about.moi{
 
 div.card-body {
 
-  background-color: #003c61;
+  background-color: #343a40;
   border-width:3px;
   border-bottom: solid;
   border-color:black;
@@ -98,18 +98,13 @@ div.card-body p {
 }
 
 .yacine{
-  box-shadow: 2px 4px 6px 3px rgba(0, 0, 0, 0.7);
+
   margin-top: 1rem;
   border-width:3px;
   border-style:solid;
   border-color:black;
   background-color: #e3f2fd;
 
-}
-
-
-.div1 {
-  background-color: #39a0ed;
 }
 
 div.card-header {
@@ -120,12 +115,9 @@ div.card-header {
   color : #007bfe;
 
 }
-#compétences:target {
-   padding-top: 3em;
 
-}
 div.card-header h3{
- color: #003c61;
+ color: #343a40;
  font-family: 'Fugaz One', cursive;
  font-size: 50px;
 
@@ -137,4 +129,52 @@ div.card.yacine{
 li.nav-item:hover {
   background-color: #003c61;
 
+}
+
+#acceuil:target {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#apropos:target {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#compétences:target {
+  padding-top: 5em;
+  padding-bottom: 5rem;
+}
+#expériences:target {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#formations:target {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#divers:target {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#interet:target {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.contactbar {
+  pading-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+}
+i.fas.fa-mobile {
+  font-size: 7rem;
+}
+i.fas.fa-envelope {
+  font-size: 7rem;
+}
+i.fab.fa-github-square {
+  font-size: 7rem;
+}
+.footer {
+ text-align: center
 }

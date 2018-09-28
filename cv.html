@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
   <!-- utilisation de bootstrap -->
   <link rel="stylesheet" href="cv.css" type="text/css" />
@@ -57,9 +58,9 @@
         <div class="col-lg-3 col-xs-12">
           <div id="acceuil">
             <div class="card yacine" style="width: 18rem;">
-              <img class="card-img-top" src="pexels-photo-1071878.jpeg" alt="Card image cap">
+              <img class="card-img-top" src="me.jpg" alt="Card image cap">
               <div class="card-body">
-                <h3 class="card-title">Messaoudi Yacine</h3>
+                <h3 class="card-title" style="color: black;">Messaoudi Yacine</h3>
                 <p class="card-text">27 ANS<br>Ville : Le Havre (76)<br> Tél : 07.62.71.48.09<br>messaoudi.y76@gmail.com</p>
                 <a href="#apropos" class="btn btn-primary">clique pour plus de détails !</a>
 
@@ -72,7 +73,7 @@
         <div class="col-lg-9 col-xs-12">
           <div id="apropos">
             <div class="about moi" style="margin-left: 30px; height: 200px;">
-              <p class="font-weight-bold">PRESENTATION</p>
+              <p class="font-weight-bold" style="color: black;">PRESENTATION</p>
               <p class="font-weight-normal">Actuellement en formation développeur web de niveau III (bac +2) à l'école des métiers du numérique La Manu du Havre(76),<br> passioné et motivé je souhaite acquérir des compétences solides dans le domaine du développement web. </p>
               <p class="font-weight-light"></p>
               <p class="font-italic"></p>
@@ -85,10 +86,12 @@
 
       <!--début container2-->
       <div class="container">
+        <div id="compétences">
         <div class="row">
-          <div class="col-lg-12 col-xs-12"> <!--siginifie que la div est = à 3 pour écran large et 12 (en entier) pour petit écran==>responsive-->
 
-            <div id="compétences">
+          <div class="col-lg-6 col-xs-12"> <!--siginifie que la div est = à 3 pour écran large et 12 (en entier) pour petit écran==>responsive-->
+
+
               <div class="card yacine">
                 <div class="card-header">
                   <h3>Compétences</h3>
@@ -116,9 +119,42 @@
 
                 </div>
               </div>
-            </div>
+
+          </div><!--fin col lg-6-->
 
 
+                <div class="col-lg-6 col-xs-12"> <!--siginifie que la div est = à 3 pour écran large et 12 (en entier) pour petit écran==>responsive-->
+
+
+                    <div class="card yacine">
+                      <div class="card-header">
+                        <h3>Outils</h3>
+                      </div>
+                      <div class="card-body">
+                        <!-- code bootstrap pour les barres de progression-->
+                        <p><img src="Atom.png" height="70 px" width="70px">ATOM</p><br>
+
+                        <p><img src="Git.png" height="70 px" width="70px"> GITHUB</p><br>
+
+                        <p><img src="terminal.png" height="70 px" width="70px"> TERMINAL</p><br>
+
+                        <h5>OS :</h5><br>
+                        <p><img src="linux.png" height="77 px" width="80px"> LINUX        <img src="windows.png" height="77 px" width="80px"> WINDOWS</p>
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div><!--fin col-lg-6-->
+                </div><!-- fin du row -->
+              </div><!-- fin du container -->
+              <br>
+
+
+          <!--contenair3-->  <div class="container">
+              <div class="row">
+                <div class="col-lg-12 col-xs-12">
             <div id="expériences">
               <div class="card yacine">
                 <div class="card-header">
@@ -134,7 +170,7 @@
                 </div>
               </div>
             </div>
-
+<br>
 
             <div id="formations">
               <div class="card yacine">
@@ -150,7 +186,7 @@
                 </div>
               </div>
             </div>
-
+<br>
             <div id="divers">
               <div class="card yacine">
                 <div class="card-header">
@@ -176,7 +212,7 @@
                   </div>
                 </div>
               </div><!--fin divers-->
-
+<br>
               <div id="interet>"
                 <div class="card yacine">
 
@@ -215,13 +251,37 @@
                </div>
             </div>
 
-
             </div><!-- fin premiere colonne --><br>
 
 
 
           </div><!-- fin du row -->
         </div><!-- fin du container -->
+
+
+
+        <!--containercontact-->
+      <div class="contactbar">
+        <div class="container">
+          <div class="row">
+            
+            <div class="footer col-lg-4 col-xs-12">
+              <i class="fas fa-mobile"></i>
+            </div>
+
+
+            <div class="footer col-lg-4 col-xs-12">
+              <i class="fas fa-envelope"></i>
+            </div>
+
+          <div class="footer col-lg-4 col-xs-12">
+              <i class="fab fa-github-square"></i>
+            </div>
+
+        </div>
+      </div>
+</div>
+
 
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
