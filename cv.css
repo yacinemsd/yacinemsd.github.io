@@ -161,8 +161,9 @@ li.nav-item:hover {
 }
 
 .contactbar {
-  pading-top: 5rem;
-  padding-bottom: 5rem;
+  border-top: 3px solid black;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
   margin-top: 6rem;
   margin-bottom: 1rem;
 }
@@ -176,5 +177,8 @@ i.fab.fa-github-square {
   font-size: 7rem;
 }
 .footer {
- text-align: center
+ text-align: center;
+}
+.footer p {
+
 }
